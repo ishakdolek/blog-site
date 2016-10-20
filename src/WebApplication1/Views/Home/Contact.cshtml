@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "İletişim";
+}
+<h2>@ViewData["Title"]</h2>
+
+
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>Bize Ulaşın</legend>
+        <div>
+            <input type="text" name="Name" placeholder="Name" required="" />  
+        </div>
+     
+        <div>
+            
+            <input type="text" name="Name" placeholder="Surname" required="" />
+        </div>
+        <div>
+
+            <input type="text" name="Name" placeholder="Email" required="" />
+        </div>
+        <div>
+            <input type="text" name="Name" placeholder="Message" required="" />
+        </div>
+
+    </fieldset>
+
+}
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+
